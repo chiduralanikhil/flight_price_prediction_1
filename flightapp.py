@@ -118,11 +118,8 @@ def main():
 
 
 
-    #model
-    #model = open(r'C:\Users\Sarthak\Desktop\Flight-Price-Prediction\main_flight_rfr.pkl', "rb")
-    #rfr_model = pickle.load(model)
-
-    rfr_model = pickle.load(open("flight2.pkl", "rb"))
+    model = open(r"C:\Users\91846\Desktop\flightpriceprediction\flight2.pkl", "rb")
+    rfr_model = pickle.load(model)
 
     #prediction
     if(air_inp ==0):
