@@ -33,7 +33,7 @@ def main():
     
 
     st.sidebar.subheader("Select Arrival")
-    arr = st.sidebar.date_input("Day." , datetime.date(y,m,d+1))
+    arr = st.sidebar.date_input("Day." , datetime.date(y,m,d))
     if arr is not None:
     
         mon_a = arr.month
